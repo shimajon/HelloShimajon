@@ -3,4 +3,4 @@ set tabstop=4		"１タブあたり４スペースにする
 set cursorline		"カーソル行位置を強調表示
 set ruler			"カーソル行番号・列番号を表示
 set laststatus=2    "ファイル名を常に表示する
-
+set hlsearch		"ハイライト検索を有効にする
