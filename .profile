@@ -60,6 +60,13 @@ PATH=${PATH}:/Developer/Applications/Utilities/PackageMaker.app/Contents/MacOS
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 # Finished adapting your PATH environment variable for use with MacPorts.
 
+### VI 環境変数の設定 ###
+# (検索結果をハイライトするかの設定)
+export GREP_OPTIONS="--color=auto"
+# (ハイライト色の設定)
+export GREP_COLOR="1;41;37"
+
+
 #For PostgreSQL
 ##export PATH=/usr/local/pgsql/bin:$PATH
 ##export MANPATH=/usr/local/pgsql/man:$MANPATH
