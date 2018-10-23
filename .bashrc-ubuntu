@@ -1,12 +1,8 @@
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
-
-echo "[START] "$0
-
-# プロンプトの表示形式を変更する
-PS1="[\t] (\W) > "
-
 # for examples
+
+echo "[START] (bashrc)"$0
 
 # If not running interactively, don't do anything
 case $- in
@@ -121,3 +117,7 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# プロンプトの表示形式を変更する
+PS1="[\t] (\W) > "
+
